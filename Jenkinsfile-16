@@ -28,7 +28,7 @@ pipeline {
                 // Run unit tests
                 echo 'Running tests...'
                 echo './gradlew test'
-                echo1 'generating error intenionally' 
+                //echo1 'generating error intenionally' 
             }
             post {
                 always {
